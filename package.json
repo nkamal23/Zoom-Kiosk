@@ -1,0 +1,10 @@
+{
+  "name": "zoomKiosks",
+  "dependencies": {
+    "express": "4.17.1",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "qr-image": "3.2.0",
+    "robotjs": "^0.6.0"
+  }
+}
