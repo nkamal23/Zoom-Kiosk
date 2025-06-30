@@ -1,0 +1,26 @@
+Assumptions
+=============
+It is assumed that Node.js is installed on a Windows-operating system.
+
+The following libraries are needed to run the Zoom kiosk. 
+ - HTTP
+ - Robotjs
+ - QR-image
+ - FS
+ - Express
+
+However, setup script can be run using the setup powershell script or running the command 'npm install' within the containing directory.
+
+
+The variables on the start.js file may need to be changed. 
+++++++++++++++++++
+IP refers to the IP of the operating system on the network - is needed to listen to requests
+ExternalIP makes up the string for the QRCode, referring to a website or IP.
+QRPort directs website traffic
+callRequestPort listens to Zoom call requests
+personCalled is the search string used to identify the person being called.
+++++++++++++++++++
+
+Port forwarding and access to the server from an external point is also assumed.
+
+People can only be called if they are on the callers contact list as well.
