@@ -1,0 +1,9 @@
+Outstanding issues
+=============
+All routing has been ignored for the time being.
+
+Responder view has yet to be setup.
+
+UI has basic setup for QR code and does not exist for responder.
+
+Much of the setup is preference based since Zoom saves its states.
