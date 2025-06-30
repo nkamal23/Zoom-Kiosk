@@ -1,0 +1,18 @@
+Startup
+=============
+
+
+Setup
+-----------------
+Make sure the node modules are installed either by:
+ - running the setup.ps1 script
+ - running 'npm install' in the containing folder
+
+
+
+Start
+-----------------
+Use the command in a terminal:
+node start.js
+
+Within the containing folder.
